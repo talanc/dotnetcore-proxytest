@@ -1,0 +1,26 @@
+Build started 22/06/2018 9:30:58 AM.
+Test run for C:\Users\talan\Desktop\ProxyTest\ProxyTest-2.1\bin\Debug\netcoreapp2.1\ProxyTest-2.1.dll(.NETCoreApp,Version=v2.1)
+Microsoft (R) Test Execution Command Line Tool Version 15.7.0
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+Passed   NetCore21_Http
+Failed   NetCore21_Https
+Error Message:
+ Test method ProxyTest21.NetCore21_Tests.NetCore21_Https threw exception: 
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 407 (Proxy Authentication Required ( The ISA Server requires authorization to fulfill the request. Access to the Web Proxy filter is denied.  )).
+Stack Trace:
+    at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at ProxyTest.Class1.Api(String url) in C:\Users\talan\Desktop\ProxyTest\ProxyLib\Class1.cs:line 18
+   at ProxyTest.Class1.Https() in C:\Users\talan\Desktop\ProxyTest\ProxyLib\Class1.cs:line 28
+   at ProxyTest21.NetCore21_Tests.NetCore21_Https() in C:\Users\talan\Desktop\ProxyTest\ProxyTest-2.1\NetCore21_Tests.cs:line 19
+
+
+Total tests: 2. Passed: 1. Failed: 1. Skipped: 0.
+Test execution time: 1.5517 Seconds
+
+Build FAILED.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.93
