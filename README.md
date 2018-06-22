@@ -2,7 +2,7 @@ Demonstrates a bug introduced in .NET Core 2.1 where HTTPS requests will not wor
 
 Run `dotnet test ProxyTest-2.0` and `dotnet test ProxyTest-2.1`, or use the Visual Studio Test Explorer `Run All`.
 
-Latest version tested against: .NET Core 2.1.1
+Latest version tested against: **.NET Core 2.1.1**
 
 ## Organisation
 - ProxyLib: A .NET Standard 2.0 library.
