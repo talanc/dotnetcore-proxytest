@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyLib", "ProxyLib\ProxyLib.csproj", "{F4806F6A-D693-4524-AD76-A3A899BD973C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyLib", "ProxyLib\ProxyLib.csproj", "{F4806F6A-D693-4524-AD76-A3A899BD973C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyTest-2.0", "ProxyTest-2.0\ProxyTest-2.0.csproj", "{9C52ADD3-2211-4D76-BCF0-D88E41FD78D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyTest-2.0", "ProxyTest-2.0\ProxyTest-2.0.csproj", "{9C52ADD3-2211-4D76-BCF0-D88E41FD78D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyTest-2.1", "ProxyTest-2.1\ProxyTest-2.1.csproj", "{01D2AABC-6F00-4789-BD46-0731E3406E60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyTest-2.1", "ProxyTest-2.1\ProxyTest-2.1.csproj", "{01D2AABC-6F00-4789-BD46-0731E3406E60}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyTest-2.2-Preview1-26620-03", "ProxyTest-2.2-preview1-26620-03\ProxyTest-2.2-Preview1-26620-03.csproj", "{75F1A7FF-1FFE-4F61-8FBB-91C106964102}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{01D2AABC-6F00-4789-BD46-0731E3406E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01D2AABC-6F00-4789-BD46-0731E3406E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01D2AABC-6F00-4789-BD46-0731E3406E60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75F1A7FF-1FFE-4F61-8FBB-91C106964102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F1A7FF-1FFE-4F61-8FBB-91C106964102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F1A7FF-1FFE-4F61-8FBB-91C106964102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F1A7FF-1FFE-4F61-8FBB-91C106964102}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

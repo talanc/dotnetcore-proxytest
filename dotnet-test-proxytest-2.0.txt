@@ -1,18 +1,12 @@
-Build started 22/06/2018 9:30:50 AM.
-Test run for C:\Users\talan\Desktop\ProxyTest\ProxyTest-2.0\bin\Debug\netcoreapp2.0\ProxyTest-2.0.dll(.NETCoreApp,Version=v2.0)
-Microsoft (R) Test Execution Command Line Tool Version 15.7.0
+Build started, please wait...
+Build completed.
+
+Test run for C:\Users\CopelandT\Desktop\dotnetcore-proxytest\ProxyTest-2.0\bin\Debug\netcoreapp2.0\ProxyTest-2.0.dll(.NETCoreApp,Version=v2.0)
+Microsoft (R) Test Execution Command Line Tool Version 15.8.0-preview-20180510-03
 Copyright (c) Microsoft Corporation.  All rights reserved.
 
 Starting test execution, please wait...
-Passed   NetCore20_Http
-Passed   NetCore20_Https
 
 Total tests: 2. Passed: 2. Failed: 0. Skipped: 0.
 Test Run Successful.
-Test execution time: 2.4420 Seconds
-
-Build succeeded.
-    0 Warning(s)
-    0 Error(s)
-
-Time Elapsed 00:00:02.82
+Test execution time: 2.9873 Seconds

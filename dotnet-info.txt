@@ -1,0 +1,47 @@
+.NET Core SDK (reflecting any global.json):
+ Version:   3.0.100-preview1-009019
+ Commit:    52e8bf1e34
+
+Runtime Environment:
+ OS Name:     Windows
+ OS Version:  6.1.7601
+ OS Platform: Windows
+ RID:         win7-x64
+ Base Path:   C:\Program Files\dotnet\sdk\3.0.100-preview1-009019\
+
+Host (useful for support):
+  Version: 2.2.0-preview1-26620-03
+  Commit:  2ad3de577c
+
+.NET Core SDKs installed:
+  1.0.0 [C:\Program Files\dotnet\sdk]
+  1.0.2 [C:\Program Files\dotnet\sdk]
+  1.0.4 [C:\Program Files\dotnet\sdk]
+  1.1.0 [C:\Program Files\dotnet\sdk]
+  2.0.0 [C:\Program Files\dotnet\sdk]
+  2.1.104 [C:\Program Files\dotnet\sdk]
+  2.1.200 [C:\Program Files\dotnet\sdk]
+  2.1.300 [C:\Program Files\dotnet\sdk]
+  2.1.301 [C:\Program Files\dotnet\sdk]
+  3.0.100-preview1-009019 [C:\Program Files\dotnet\sdk]
+
+.NET Core runtimes installed:
+  Microsoft.AspNetCore.All 2.1.0 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All]
+  Microsoft.AspNetCore.All 2.1.1 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All]
+  Microsoft.AspNetCore.All 2.2.0-preview1-34355 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All]
+  Microsoft.AspNetCore.App 2.1.0 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 2.1.1 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 2.2.0-preview1-34355 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 1.0.4 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 1.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 1.1.1 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 1.1.2 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 2.0.0 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 2.0.6 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 2.0.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 2.1.0 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 2.1.1 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 2.2.0-preview1-26620-03 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+
+To install additional .NET Core runtimes or SDKs:
+  https://aka.ms/dotnet-download

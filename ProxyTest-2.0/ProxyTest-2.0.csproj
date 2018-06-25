@@ -2,8 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <RootNamespace>ProxyTest20</RootNamespace>
-
     <IsPackable>false</IsPackable>
   </PropertyGroup>
 
