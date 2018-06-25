@@ -30,14 +30,29 @@ _See **dotnet-test-&ast;** for more information._
 
 `dotnet test ProxyTest-2.0`
 ```
+Build started, please wait...
+Build completed.
+
+Test run for C:\src\dotnetcore-proxytest\ProxyTest-2.0\bin\Debug\netcoreapp2.0\ProxyTest-2.0.dll(.NETCoreApp,Version=v2.0)
+Microsoft (R) Test Execution Command Line Tool Version 15.8.0-preview-20180510-03
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
 Starting test execution, please wait...
 
 Total tests: 2. Passed: 2. Failed: 0. Skipped: 0.
 Test Run Successful.
+Test execution time: 2.9659 Seconds
 ```
 
 `dotnet test ProxyTest-2.1`
 ```
+Build started, please wait...
+Build completed.
+
+Test run for C:\src\dotnetcore-proxytest\ProxyTest-2.1\bin\Debug\netcoreapp2.1\ProxyTest-2.1.dll(.NETCoreApp,Version=v2.1)
+Microsoft (R) Test Execution Command Line Tool Version 15.8.0-preview-20180510-03
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
 Starting test execution, please wait...
 Failed   NetCore21_Https
 Error Message:
@@ -45,16 +60,24 @@ Error Message:
 System.Net.Http.HttpRequestException: Response status code does not indicate success: 407 (Proxy Authentication Required ( The ISA Server requires authorization to fulfill the request. Access to the Web Proxy filter is denied.  )).
 Stack Trace:
     at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
-   at ProxyTest.Class1.Api(String url) in C:\Users\CopelandT\Desktop\dotnetcore-proxytest\ProxyLib\Class1.cs:line 18
-   at ProxyTest.Class1.Https() in C:\Users\CopelandT\Desktop\dotnetcore-proxytest\ProxyLib\Class1.cs:line 28
-   at ProxyTest21.NetCore21_Tests.NetCore21_Https() in C:\Users\CopelandT\Desktop\dotnetcore-proxytest\ProxyTest-2.1\NetCore21_Tests.cs:line 19
+   at ProxyTest.Class1.Api(String url) in C:\src\dotnetcore-proxytest\ProxyLib\Class1.cs:line 18
+   at ProxyTest.Class1.Https() in C:\src\dotnetcore-proxytest\ProxyLib\Class1.cs:line 28
+   at ProxyTest21.NetCore21_Tests.NetCore21_Https() in C:\src\dotnetcore-proxytest\ProxyTest-2.1\NetCore21_Tests.cs:line 19
 
 
 Total tests: 2. Passed: 1. Failed: 1. Skipped: 0.
+Test execution time: 1.5291 Seconds
 ```
 
 `dotnet test ProxyTest-2.2-preview1-26620-03`
 ```
+Build started, please wait...
+Build completed.
+
+Test run for C:\src\dotnetcore-proxytest\ProxyTest-2.2-preview1-26620-03\bin\Debug\netcoreapp2.2\ProxyTest-2.2-Preview1-26620-03.dll(.NETCoreApp,Version=v2.2)
+Microsoft (R) Test Execution Command Line Tool Version 15.8.0-preview-20180510-03
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
 Starting test execution, please wait...
 Failed   NetCore22_Https
 Error Message:
@@ -74,10 +97,11 @@ Stack Trace:
    at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
    at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
    at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
-   at ProxyTest.Class1.Api(String url) in C:\Users\CopelandT\Desktop\dotnetcore-proxytest\ProxyLib\Class1.cs:line 17
-   at ProxyTest.Class1.Https() in C:\Users\CopelandT\Desktop\dotnetcore-proxytest\ProxyLib\Class1.cs:line 28
-   at ProxyTest22_Preview1_26620_03.NetCore22_Preview1_26620_03_Tests.NetCore22_Https() in C:\Users\CopelandT\Desktop\dotnetcore-proxytest\ProxyTest-2.2-preview1-26620-03\NetCore22_Preview1_26620_03_Tests.cs:line 19
+   at ProxyTest.Class1.Api(String url) in C:\src\dotnetcore-proxytest\ProxyLib\Class1.cs:line 17
+   at ProxyTest.Class1.Https() in C:\src\dotnetcore-proxytest\ProxyLib\Class1.cs:line 28
+   at ProxyTest22_Preview1_26620_03.NetCore22_Preview1_26620_03_Tests.NetCore22_Https() in C:\src\dotnetcore-proxytest\ProxyTest-2.2-preview1-26620-03\NetCore22_Preview1_26620_03_Tests.cs:line 19
 
 
 Total tests: 2. Passed: 1. Failed: 1. Skipped: 0.
+Test execution time: 1.5154 Seconds
 ```
