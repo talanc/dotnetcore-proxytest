@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyTest-2.0", "ProxyTest-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyTest-2.1", "ProxyTest-2.1\ProxyTest-2.1.csproj", "{01D2AABC-6F00-4789-BD46-0731E3406E60}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyTest-2.2-Preview1-26620-03", "ProxyTest-2.2-preview1-26620-03\ProxyTest-2.2-Preview1-26620-03.csproj", "{75F1A7FF-1FFE-4F61-8FBB-91C106964102}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyTest-3.0.0-preview1-26710-03", "ProxyTest-3.0.0-preview1-26710-03\ProxyTest-3.0.0-preview1-26710-03.csproj", "{3564744C-0F52-434A-8B19-B58D89DC7DE8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{01D2AABC-6F00-4789-BD46-0731E3406E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01D2AABC-6F00-4789-BD46-0731E3406E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01D2AABC-6F00-4789-BD46-0731E3406E60}.Release|Any CPU.Build.0 = Release|Any CPU
-		{75F1A7FF-1FFE-4F61-8FBB-91C106964102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{75F1A7FF-1FFE-4F61-8FBB-91C106964102}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{75F1A7FF-1FFE-4F61-8FBB-91C106964102}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{75F1A7FF-1FFE-4F61-8FBB-91C106964102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3564744C-0F52-434A-8B19-B58D89DC7DE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3564744C-0F52-434A-8B19-B58D89DC7DE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3564744C-0F52-434A-8B19-B58D89DC7DE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3564744C-0F52-434A-8B19-B58D89DC7DE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
