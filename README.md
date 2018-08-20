@@ -33,7 +33,7 @@ _See **dotnet-test-&ast;** for more information._
 Build started, please wait...
 Build completed.
 
-Test run for C:\Users\CopelandT\Desktop\dotnetcore-proxytest\ProxyTest-2.0\bin\Debug\netcoreapp2.0\ProxyTest-2.0.dll(.NETCoreApp,Version=v2.0)
+Test run for C:\src\dotnetcore-proxytest\ProxyTest-2.0\bin\Debug\netcoreapp2.0\ProxyTest-2.0.dll(.NETCoreApp,Version=v2.0)
 Microsoft (R) Test Execution Command Line Tool Version 15.8.0
 Copyright (c) Microsoft Corporation.  All rights reserved.
 
@@ -41,7 +41,7 @@ Starting test execution, please wait...
 
 Total tests: 2. Passed: 2. Failed: 0. Skipped: 0.
 Test Run Successful.
-Test execution time: 2.8434 Seconds
+Test execution time: 6.3935 Seconds
 ```
 
 `dotnet test ProxyTest-2.1`
@@ -49,7 +49,7 @@ Test execution time: 2.8434 Seconds
 Build started, please wait...
 Build completed.
 
-Test run for C:\Users\CopelandT\Desktop\dotnetcore-proxytest\ProxyTest-2.1\bin\Debug\netcoreapp2.1\ProxyTest-2.1.dll(.NETCoreApp,Version=v2.1)
+Test run for C:\src\dotnetcore-proxytest\ProxyTest-2.1\bin\Debug\netcoreapp2.1\ProxyTest-2.1.dll(.NETCoreApp,Version=v2.1)
 Microsoft (R) Test Execution Command Line Tool Version 15.8.0
 Copyright (c) Microsoft Corporation.  All rights reserved.
 
@@ -60,13 +60,13 @@ Error Message:
 System.Net.Http.HttpRequestException: Response status code does not indicate success: 407 (Proxy Authentication Required ( The ISA Server requires authorization to fulfill the request. Access to the Web Proxy filter is denied.  )).
 Stack Trace:
     at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
-   at ProxyTest.Class1.Api(String url) in C:\Users\CopelandT\Desktop\dotnetcore-proxytest\ProxyLib\Class1.cs:line 18
-   at ProxyTest.Class1.Https() in C:\Users\CopelandT\Desktop\dotnetcore-proxytest\ProxyLib\Class1.cs:line 28
-   at ProxyTest21.NetCore21_Tests.NetCore21_Https() in C:\Users\CopelandT\Desktop\dotnetcore-proxytest\ProxyTest-2.1\NetCore21_Tests.cs:line 19
+   at ProxyTest.Class1.Api(String url) in C:\src\dotnetcore-proxytest\ProxyLib\Class1.cs:line 18
+   at ProxyTest.Class1.Https() in C:\src\dotnetcore-proxytest\ProxyLib\Class1.cs:line 28
+   at ProxyTest21.NetCore21_Tests.NetCore21_Https() in C:\src\dotnetcore-proxytest\ProxyTest-2.1\NetCore21_Tests.cs:line 19
 
 
 Total tests: 2. Passed: 1. Failed: 1. Skipped: 0.
-Test execution time: 1.2613 Seconds
+Test execution time: 1.2018 Seconds
 ```
 
 `dotnet test ProxyTest-3.0.0-preview1-26710-03`
@@ -74,35 +74,13 @@ Test execution time: 1.2613 Seconds
 Build started, please wait...
 Build completed.
 
-Test run for C:\Users\CopelandT\Desktop\dotnetcore-proxytest\ProxyTest-3.0.0-preview1-26710-03\bin\Debug\netcoreapp3.0\ProxyTest-3.0.0-preview1-26710-03.dll(.NETCoreApp,Version=v3.0)
+Test run for C:\src\dotnetcore-proxytest\ProxyTest-3.0-preview1\bin\Debug\netcoreapp3.0\ProxyTest-3.0-preview1.dll(.NETCoreApp,Version=v3.0)
 Microsoft (R) Test Execution Command Line Tool Version 15.8.0
 Copyright (c) Microsoft Corporation.  All rights reserved.
 
 Starting test execution, please wait...
-Failed   NetCore30_Https
-Error Message:
- Test method ProxyTest30_Preview1_26710_03.NetCore30_Preview1_26710_03_Tests.NetCore30_Https threw exception: 
-System.Net.Http.HttpRequestException: Authentication failed because the connection could not be reused.
-Stack Trace:
-    at System.Net.Http.HttpConnection.DrainResponseAsync(HttpResponseMessage response)
-   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, CancellationToken cancellationToken)
-   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
-   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
-   at System.Net.Http.HttpConnectionPool.EstablishProxyTunnel(CancellationToken cancellationToken)
-   at System.Threading.Tasks.ValueTask`1.get_Result()
-   at System.Net.Http.HttpConnectionPool.CreateConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
-   at System.Threading.Tasks.ValueTask`1.get_Result()
-   at System.Net.Http.HttpConnectionPool.WaitForCreatedConnectionAsync(ValueTask`1 creationTask)
-   at System.Threading.Tasks.ValueTask`1.get_Result()
-   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
-   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
-   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
-   at ProxyTest.Class1.Api(String url) in C:\Users\CopelandT\Desktop\dotnetcore-proxytest\ProxyLib\Class1.cs:line 17
-   at ProxyTest.Class1.Https() in C:\Users\CopelandT\Desktop\dotnetcore-proxytest\ProxyLib\Class1.cs:line 28
-   at ProxyTest30_Preview1_26710_03.NetCore30_Preview1_26710_03_Tests.NetCore30_Https() in C:\Users\CopelandT\Desktop\dotnetcore-proxytest\ProxyTest-3.0.0-preview1-26710-03\NetCore30_preview1-26710-03_Tests.cs:line 19
 
-
-Total tests: 2. Passed: 1. Failed: 1. Skipped: 0.
-Test execution time: 1.5690 Seconds
-
+Total tests: 2. Passed: 2. Failed: 0. Skipped: 0.
+Test Run Successful.
+Test execution time: 2.9791 Seconds
 ```
