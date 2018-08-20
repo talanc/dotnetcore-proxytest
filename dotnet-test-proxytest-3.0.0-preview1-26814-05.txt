@@ -1,7 +1,7 @@
 Build started, please wait...
 Build completed.
 
-Test run for C:\src\dotnetcore-proxytest\ProxyTest-2.0\bin\Debug\netcoreapp2.0\ProxyTest-2.0.dll(.NETCoreApp,Version=v2.0)
+Test run for C:\src\dotnetcore-proxytest\ProxyTest-3.0-preview1\bin\Debug\netcoreapp3.0\ProxyTest-3.0-preview1.dll(.NETCoreApp,Version=v3.0)
 Microsoft (R) Test Execution Command Line Tool Version 15.8.0
 Copyright (c) Microsoft Corporation.  All rights reserved.
 
@@ -9,4 +9,4 @@ Starting test execution, please wait...
 
 Total tests: 2. Passed: 2. Failed: 0. Skipped: 0.
 Test Run Successful.
-Test execution time: 6.3935 Seconds
+Test execution time: 2.9791 Seconds

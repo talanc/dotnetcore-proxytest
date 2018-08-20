@@ -2,10 +2,10 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ProxyTest;
 using System.Threading.Tasks;
 
-namespace ProxyTest30_Preview1_26710_03
+namespace ProxyTest30_Preview1
 {
     [TestClass]
-    public class NetCore30_Preview1_26710_03_Tests
+    public class NetCore30_Preview1_Tests
     {
         [TestMethod]
         public async Task NetCore30_Http()
