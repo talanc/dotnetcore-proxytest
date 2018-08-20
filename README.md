@@ -8,7 +8,7 @@ Latest version tested against: **.NET Core 2.1.1**
 - ProxyLib: A .NET Standard 2.0 library.
 - ProxyTest-2.0: A .NET Core 2.0 test project.
 - ProxyTest-2.1: A .NET Core 2.1 test project.
-- ProxyTest-3.0.0-preview1-26710-03: A .NET Core 3.0 (preview1-26710-03) test project.
+- ProxyTest-3.0-preview1: A .NET Core 3.0 (3.0.0-preview1-26814-05) test project.
 
 ### Unit Tests
 Both test projects have two unit tests each; one to test a HTTP GET request and the other to test a HTTPS GET request.
@@ -16,8 +16,8 @@ Both test projects have two unit tests each; one to test a HTTP GET request and 
 - dotnetcore-2.0-https: Passes.
 - dotnetcore-2.0-http: Passes.
 - dotnetcore-2.1-https: **Fails**.
-- dotnetcore-3.0.0-preview1-26710-03-http: Passes.
-- dotnetcore-3.0.0-preview1-26710-03-https **Fails**.
+- dotnetcore-3.0.0-preview1-26814-05-http: Passes.
+- dotnetcore-3.0.0-preview1-26814-05-https **Fails**.
 
 ## Test output
 _See **dotnet-info.txt** for more information._
@@ -69,7 +69,7 @@ Total tests: 2. Passed: 1. Failed: 1. Skipped: 0.
 Test execution time: 1.2018 Seconds
 ```
 
-`dotnet test ProxyTest-3.0.0-preview1-26710-03`
+`dotnet test ProxyTest-3.0-preview1`
 ```
 Build started, please wait...
 Build completed.
