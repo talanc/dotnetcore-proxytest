@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyTest-2.0", "ProxyTest-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyTest-2.1", "ProxyTest-2.1\ProxyTest-2.1.csproj", "{01D2AABC-6F00-4789-BD46-0731E3406E60}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyTest-3.0-preview1", "ProxyTest-3.0-preview1\ProxyTest-3.0-preview1.csproj", "{3564744C-0F52-434A-8B19-B58D89DC7DE8}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
