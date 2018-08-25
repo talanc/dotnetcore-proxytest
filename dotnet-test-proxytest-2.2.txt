@@ -1,0 +1,33 @@
+Build started, please wait...
+Build completed.
+
+Test run for C:\src\dotnetcore-proxytest\ProxyTest-2.2\bin\Debug\netcoreapp2.2\ProxyTest-2.2.dll(.NETCoreApp,Version=v2.2)
+Microsoft (R) Test Execution Command Line Tool Version 15.8.0
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+Failed   NetCore22_Https
+Error Message:
+ Test method ProxyTest22.NetCore22_Tests.NetCore22_Https threw exception: 
+System.Net.Http.HttpRequestException: Authentication failed because the connection could not be reused.
+Stack Trace:
+    at System.Net.Http.HttpConnection.DrainResponseAsync(HttpResponseMessage response)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.EstablishProxyTunnel(CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.CreateConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.WaitForCreatedConnectionAsync(ValueTask`1 creationTask)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at ProxyLib.Class1.Api(String url) in C:\src\dotnetcore-proxytest\ProxyLib\Class1.cs:line 17
+   at ProxyLib.Class1.Https() in C:\src\dotnetcore-proxytest\ProxyLib\Class1.cs:line 28
+   at ProxyTest22.NetCore22_Tests.NetCore22_Https() in C:\src\dotnetcore-proxytest\ProxyTest-2.2\NetCore22_Tests.cs:line 19
+
+
+Total tests: 2. Passed: 1. Failed: 1. Skipped: 0.
+Test execution time: 1.2637 Seconds

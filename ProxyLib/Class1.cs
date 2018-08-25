@@ -3,7 +3,7 @@ using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace ProxyTest
+namespace ProxyLib
 {
     public static class Class1
     {

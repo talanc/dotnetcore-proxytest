@@ -12,10 +12,10 @@ Error Message:
 System.Net.Http.HttpRequestException: Response status code does not indicate success: 407 (Proxy Authentication Required ( The ISA Server requires authorization to fulfill the request. Access to the Web Proxy filter is denied.  )).
 Stack Trace:
     at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
-   at ProxyTest.Class1.Api(String url) in C:\src\dotnetcore-proxytest\ProxyLib\Class1.cs:line 18
-   at ProxyTest.Class1.Https() in C:\src\dotnetcore-proxytest\ProxyLib\Class1.cs:line 28
+   at ProxyLib.Class1.Api(String url) in C:\src\dotnetcore-proxytest\ProxyLib\Class1.cs:line 18
+   at ProxyLib.Class1.Https() in C:\src\dotnetcore-proxytest\ProxyLib\Class1.cs:line 28
    at ProxyTest21.NetCore21_Tests.NetCore21_Https() in C:\src\dotnetcore-proxytest\ProxyTest-2.1\NetCore21_Tests.cs:line 19
 
 
 Total tests: 2. Passed: 1. Failed: 1. Skipped: 0.
-Test execution time: 1.2018 Seconds
+Test execution time: 1.5878 Seconds

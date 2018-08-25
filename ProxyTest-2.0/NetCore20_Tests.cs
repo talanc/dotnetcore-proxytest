@@ -1,5 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ProxyTest;
+using ProxyLib;
 using System.Threading.Tasks;
 
 namespace ProxyTest20
